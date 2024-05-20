@@ -188,6 +188,7 @@ section {
     padding: 3rem 2rem;
     text-align: center;
 }
+
 .about, .events, .resources, .contact {
     background-color: var(--lightbg);
     /* margin-bottom: 1rem; */
@@ -205,14 +206,14 @@ section {
 }
 .about p{
     text-align: justify;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 .about::before{
     background-image: url("./eventbg.png");
     image-rendering: auto;
     background-size: cover;
     background-position: bottom;
-    margin-top: -15px;
+    margin-top: -25px;
     content: "";
     position: absolute;
     left: 0;
@@ -222,6 +223,7 @@ section {
 }
 .resources{
     background-color: var(--backgroundColor);
+    margin-top: -60px !important;
 }
 h2 {
     color: var(--primaryColor);
@@ -233,7 +235,7 @@ h2 {
     image-rendering: auto;
     background-size: cover;
     background-position: bottom;
-    margin-top: -45px;
+    margin-top: -50px;
     content: "";
     position: absolute;
     left: 0;
@@ -263,6 +265,7 @@ h2 {
 }
  .contact{
     background-color: var(--backgroundColor);
+    margin-top: -13px;
  }
 .contact a {
     color: var(--primaryColor);
