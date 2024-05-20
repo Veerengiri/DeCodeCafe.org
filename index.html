@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeCafe Community</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <div class="logo"><img src="./logo.jpeg" width="40px" alt="logo"> DecodeCafe</div>    
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="auth-buttons" style="margin-right: 20px;">
+                    <a target="_blank" href="https://www.linkedin.com/company/decodecafe-community/" class="register">Join Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <h1>Welcome to <span>DecodeCafe Community</span></h1>
+            <p>Your hub for coding, collaboration, and career growth. Join us to learn, share, and grow together.</p>
+            <div class="cta-buttons">
+                <a target="_blank" href="https://www.linkedin.com/company/decodecafe-community/"><button  class="join">Join the Community</button></a>
+                <a target="_blank" href="https://github.com/DeCodeCafe"><button class="learn-more">Learn More</button></a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <div>
+                <div>
+                    <p>DecodeCafe Community is a vibrant network of tech enthusiasts, developers, and professionals dedicated to learning and sharing knowledge in the field of technology.</p>
+                    <p>Join DeCodeCafe: Embrace Kaizen, Learn in Public, and Excel in Tech! 🚀 We offer a variety of resources and opportunities for students, including: </p>
+                    <p style=" padding-left: 20px;">
+                        - Workshops and webinars on a variety of topics <br>
+                        - Learning resources, such as articles, videos, and podcasts <br>
+                        - Opportunities to network with other students and professionals Internships and job opportunities <br>
+                        - We are a growing community and we are always looking for new ways to support students.
+                    </p>
+                    <p>Join us today and start your journey to success!</p>
+                </div>
+                <img src="./logo.jpeg" width="700px" alt="logo">
+            </div>
+        </section>
+
+        <section class="resources" id="resources">
+            <h2>Resources</h2>
+            <p>Explore our extensive library of resources including tutorials, articles, and project ideas to help you grow in your tech career.</p>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                <img id="leftar" onclick="prev()" style="cursor: pointer;" src="left-arrow.png" width="40px" height="40px">
+                <iframe id="iframetag" width="1132" height="612"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img id="rightar" onclick="next()" style="cursor: pointer;" src="right-arrow.png" width="40px" height="40px">
+            </div>
+            <a href="https://www.youtube.com/@decodecafe" target="_blank"><button class="explore">Explore Resources</button></a> 
+        </section>
+        <section class="events" id="events">
+            <h2>Upcoming Events</h2>
+            <div class="event-list">
+                <div class="event">
+                    <h3>Web Development Workshop</h3>
+                    <p>Join our workshop to enhance your web development skills with hands-on projects and expert guidance.</p>
+                </div>
+                <div class="event">
+                    <h3>AI & Machine Learning Seminar</h3>
+                    <p>Learn the latest trends and advancements in AI and Machine Learning from industry experts.</p>
+                </div>
+                <div class="event">
+                    <h3>Networking Meetup</h3>
+                    <p>Expand your professional network by connecting with fellow tech enthusiasts and professionals.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to get involved? Reach out to us at <a href="mailto:decodecafe.community@gmail.com"> decodecafe.community@gmail.com</a></p>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
