@@ -2,7 +2,7 @@
   --primaryColor: #8367b6 ;
   /* --primaryColor: #ff6f61; */
   --backgroundColor: rgb(24, 23, 23);
-  --lightbg: rgba(24, 23, 23, 0.75);
+  --lightbg: rgba(24, 23, 23, 0.8);
   --primaryLight: #8367b650;
   scroll-behavior: smooth;
 }
@@ -229,6 +229,9 @@ h2 {
     color: var(--primaryColor);
     font-size: 2rem;
     margin-bottom: 1rem;
+}
+.events{
+    background-color: rgba(24, 23, 23, 0.6);
 }
 .events::before{
     background-image: url("./aboutbg2.webp");
